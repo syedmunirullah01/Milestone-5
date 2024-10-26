@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dynamic Resume Builder</title>
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+
+        <nav class="navbar bg-white">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="brand-and-toggler">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="assets/images/curriculum-vitae.png" alt
+                                class="navbar-brand-icon">
+                            <span class="navbar-brand-text">Syed <span>Resume
+                                    Builder.</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <form id="about-sc">
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>Basic Information</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="firstname" class="form-label">First
+                                    Name</label>
+                                <div class="form-elem">
+                                    <input type="text" id="firstname"
+                                        placeholder="First Name"
+                                        class="form-control" required />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="middlename"
+                                    class="form-label">Middle Name</label>
+                                <div class="form-elem">
+                                    <input type="text" id="middlename"
+                                        placeholder="Middle Name"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="lastname" class="form-label">Last
+                                    Name</label>
+                                <div class="form-elem">
+                                    <input type="text" id="lastname"
+                                        placeholder="Last Name"
+                                        class="form-control" required />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="designation"
+                                    class="form-label">Designation</label>
+                                <div class="form-elem">
+                                    <input type="text" id="designation"
+                                        placeholder="Designation"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="address"
+                                    class="form-label">Address</label>
+                                <div class="form-elem">
+                                    <input type="text" id="address"
+                                        placeholder="Address"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="email"
+                                    class="form-label">Email</label>
+                                <div class="form-elem">
+                                    <input type="email" id="email"
+                                        placeholder="Email"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="phoneno" class="form-label">Phone
+                                    Number</label>
+                                <div class="form-elem">
+                                    <input type="tel" id="phoneno"
+                                        placeholder="Phone Number"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="summary"
+                                    class="form-label">Summary</label>
+                                <div class="form-elem">
+                                    <textarea id="summary" placeholder="Summary"
+                                        class="form-control"></textarea>
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>Achievements</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="firstname"
+                                    class="form-label">Achievement Title</label>
+                                <div class="form-elem">
+                                    <input type="text" id="ach_title"
+                                        placeholder="Achievement Title"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style ">
+                                <label for="summary"
+                                    class="form-label">Summary</label>
+                                <div class="form-elem">
+                                    <textarea id="ach_description"
+                                        placeholder="Achievement Description"
+                                        class="form-control"></textarea>
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>Experience</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="ex_title"
+                                    class="form-label">Job Title</label>
+                                <div class="form-elem">
+                                    <input type="text" id="ex_title"
+                                        placeholder="Job Title"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="ex_company"
+                                    class="form-label">Company</label>
+                                <div class="form-elem">
+                                    <input type="text" id="ex_company"
+                                        placeholder="Company"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="ex_location"
+                                    class="form-label">Location</label>
+                                <div class="form-elem">
+                                    <input type="text" id="ex_location"
+                                        placeholder="Location"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="ex_start_date"
+                                    class="form-label">Start Date</label>
+                                <div class="form-elem">
+                                    <input type="date" id="ex_start_date"
+                                        placeholder="Start Date"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="ex_end_date"
+                                    class="form-label">End Date</label>
+                                <div class="form-elem">
+                                    <input type="date" id="ex_end_date"
+                                        placeholder="End Date"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style ">
+                                <label for="summary"
+                                    class="form-label">Summary</label>
+                                <div class="form-elem">
+                                    <textarea id="ex_description"
+                                        placeholder="Experience Description"
+                                        class="form-control"></textarea>
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>Education</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="school"
+                                    class="form-label">School/University</label>
+                                <div class="form-elem">
+                                    <input type="text" id="school"
+                                        placeholder="School/University"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="degree"
+                                    class="form-label">Degree</label>
+                                <div class="form-elem">
+                                    <input type="text" id="degree"
+                                        placeholder="Degree"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="city"
+                                    class="form-label">City</label>
+                                <div class="form-elem">
+                                    <input type="text" id="city"
+                                        placeholder="City"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="start_date"
+                                    class="form-label">Start Date</label>
+                                <div class="form-elem">
+                                    <input type="date" id="start_date"
+                                        placeholder="Start Date"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="end_date"
+                                    class="form-label">End Date</label>
+                                <div class="form-elem">
+                                    <input type="date" id="end_date"
+                                        placeholder="End Date"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style ">
+                                <label for="description"
+                                    class="form-label">Description</label>
+                                <div class="form-elem">
+                                    <textarea id="description"
+                                        placeholder="Education Description"
+                                        class="form-control"></textarea>
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="project"
+                                    class="form-label">Project Name</label>
+                                <div class="form-elem">
+                                    <input type="text" id="project"
+                                        placeholder="Project Name"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style">
+                                <label for="pro_link"
+                                    class="form-label">Project Link</label>
+                                <div class="form-elem">
+                                    <input type="url" id="pro_link"
+                                        placeholder="Project Link"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="label-style ">
+                                <label for="pro_description"
+                                    class="form-label">Description</label>
+                                <div class="form-elem">
+                                    <textarea id="pro_description"
+                                        placeholder="Project Description"
+                                        class="form-control"></textarea>
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>Skills</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="skills"
+                                    class="form-label">Skills</label>
+                                <div class="form-elem">
+                                    <input type="text" id="skills"
+                                        placeholder="Enter skills separated by commas"
+                                        class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading-margin">
+                    <div class="heading-section">
+                        <h2>image</h2>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="cv-form-row cv-form-row-about">
+                        <div class="cols-3">
+                            <div class="label-style">
+                                <label for="yourimage"
+                                    class="form-label">Image</label>
+                                <div class="form-elem">
+                                    <input type="file" id="yourimage"
+                                        accept="image/*" class="form-control" />
+                                    <span class="form-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <button type="submit"
+                        class="print-btn btn btn-primary">Generate
+                        Resume</button>
+                </div>
+
+            </form>
+
+            <div id="print-section">
+                <div id="preview-sc" style="display: none;">
+
+                    <h2>Resume Preview</h2>
+
+                    <div class="section-container">
+                        <div class="profile-container">
+                            <img id="image_dsp" alt="Profile Image"
+                                class="circular-image" />
+                            <div class="profile-info">
+                                <p id="fullname_dsp"></p>
+                                <p id="designation_dsp"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <h3 class="section-padding">Basic Information</h3>
+                        <p id="phoneno_dsp"></p>
+                        <p id="email_dsp"></p>
+                        <p id="address_dsp"></p>
+                        <p id="summary_dsp"></p>
+                    </div>
+
+                    <div class="section-container">
+                        <h3 class="section-padding">Achievements</h3>
+                        <p id="achievements_dsp"></p>
+                    </div>
+
+                    <div class="section-container">
+                        <h3 class="section-padding">Experience</h3>
+                        <p id="experiences_dsp"></p>
+                    </div>
+
+                    <div class="section-container">
+                        <h3 class="section-padding">Education</h3>
+                        <p id="educations_dsp"></p>
+                    </div>
+
+                    <div class="section-container">
+                        <h3 class="section-padding">Projects</h3>
+                        <p id="projects_dsp"></p>
+                    </div>
+
+                    <div class="section-container">
+                        <h3 class="section-padding">Skills</h3>
+                        <p id="skills_dsp"></p>
+
+                    </div>
+                    <button id="edit-button"
+                        class="print-btn-sc btn btn-primary text-uppercase"
+                        style="display: none;">Edit</button>
+
+                        <button id="print-cv" onclick="printCV()"
+                class="print-btn-sc btn btn-primary text-uppercase">Print
+                CV</button>
+
+                <button id="generate-link-button" class="print-btn-sc btn btn-primary text-uppercase">Generate CV Link</button>
+                <p id="shareable-link" style="display: none;"></p>
+                </div>
+
+                
+
+
+            </div>
+
+        </div>
+
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <p class="fs-15">&copy; Copyright 2022. All Rights
+                        Reserved - <span>Syed Munir Ullah</span></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
